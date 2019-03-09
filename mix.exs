@@ -35,7 +35,7 @@ defmodule ExPirate.MixProject do
   defp deps do
     [
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
-      {:agent_map, "~> 1.1-rc.1"}
+      {:agent_map, "~> 1.1"}
     ]
   end
 end
